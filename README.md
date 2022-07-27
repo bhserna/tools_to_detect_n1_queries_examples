@@ -1,24 +1,19 @@
-# README
+# What tools can help me to detect n+1 queries?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example app to help you test/experiment with the tools to help you detect n+1 queries:
 
-Things you may want to cover:
+- Bullet
+- Prosopite
+- NPlusOneControl
+- Rails strict_loading!
+- Rack mini profiler
 
-* Ruby version
+## Here is what you can do with this app
 
-* System dependencies
+- Visit the root path and open the top badge of Rack mini profiler.
+- Visit the root path and see the logs to see Bullet and Prosopite in action.
+- Run the `PostController` spec to see the NPlusOneControl error.
+- Uncomment the `strict_loading!` call on the `PostController ` to see the rails error.
+## App Specs
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: "3.0.0"
