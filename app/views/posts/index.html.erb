@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<% @posts.each do |post| %>
+  <%= tag.div id: dom_id(post) do %>
+    <hr>
+    <h3><%= post.title %></h3>
+    <p>Comments count: <%= post.comments.count %></p>
+  <% end %>
+<% end %>
