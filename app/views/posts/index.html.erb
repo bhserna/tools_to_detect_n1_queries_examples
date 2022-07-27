@@ -4,6 +4,6 @@
   <%= tag.div id: dom_id(post) do %>
     <hr>
     <h3><%= post.title %></h3>
-    <p>Comments count: <%= post.comments.count %></p>
+    <p>Comments count: <%= post.comments.length %></p>
   <% end %>
 <% end %>
