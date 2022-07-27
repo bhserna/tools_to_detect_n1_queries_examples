@@ -80,4 +80,5 @@ group :development, :test do
   gem "bullet"
   gem "prosopite"
   gem "pg_query"
+  gem "n_plus_one_control"
 end
